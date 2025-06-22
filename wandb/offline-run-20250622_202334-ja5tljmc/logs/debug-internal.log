@@ -1,0 +1,15 @@
+{"time":"2025-06-22T20:23:34.5000073+02:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"C:\\Users\\Yacine\\Desktop\\MUSIC FEEDBACKS GEN\\wandb\\offline-run-20250622_202334-ja5tljmc\\logs\\debug-core.log"}
+{"time":"2025-06-22T20:23:34.6088357+02:00","level":"WARN","msg":"GraphQL client is nil, skipping feature loading"}
+{"time":"2025-06-22T20:23:34.6093633+02:00","level":"INFO","msg":"stream: created new stream","id":"ja5tljmc"}
+{"time":"2025-06-22T20:23:34.6093633+02:00","level":"INFO","msg":"stream: started","id":"ja5tljmc"}
+{"time":"2025-06-22T20:23:34.6093633+02:00","level":"INFO","msg":"handler: started","stream_id":"ja5tljmc"}
+{"time":"2025-06-22T20:23:34.6093633+02:00","level":"INFO","msg":"sender: started","stream_id":"ja5tljmc"}
+{"time":"2025-06-22T20:23:34.6093633+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"ja5tljmc"}
+{"time":"2025-06-22T20:23:34.6128138+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-22T20:23:35.6265973+02:00","level":"INFO","msg":"stream: closing","id":"ja5tljmc"}
+{"time":"2025-06-22T20:23:35.6265973+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-22T20:23:35.6265973+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-22T20:23:35.6265973+02:00","level":"INFO","msg":"handler: closed","stream_id":"ja5tljmc"}
+{"time":"2025-06-22T20:23:35.6265973+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ja5tljmc"}
+{"time":"2025-06-22T20:23:35.6265973+02:00","level":"INFO","msg":"sender: closed","stream_id":"ja5tljmc"}
+{"time":"2025-06-22T20:23:35.6271033+02:00","level":"INFO","msg":"stream: closed","id":"ja5tljmc"}
