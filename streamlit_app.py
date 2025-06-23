@@ -94,6 +94,7 @@ st.title("🎹 MusicGen + GPT – Boucle de feedback")
 prompt = st.text_input("Entrez votre prompt texte :", value="Une douce mélodie de piano")
 
 # 2️⃣ Génération audio
+# 2️⃣ Génération audio
 if st.button("Générer l’audio"):
     if not prompt.strip():
         st.warning("Veuillez saisir un prompt avant de générer.")
@@ -103,6 +104,8 @@ if st.button("Générer l’audio"):
         wav_arr  = wav_ids.cpu().numpy().T
         sr       = processor.feature_extractor.sampling_rate
 
+        wav_arr = wav_arr.astype("float32")  # ✅ ajout ici
+
         # nommage unique
         idx      = len(list(AUDIO_DIR.glob("out_*.wav"))) + 1
         out_path = AUDIO_DIR / f"out_{idx}.wav"
@@ -111,6 +114,7 @@ if st.button("Générer l’audio"):
         st.success(f"Audio généré et sauvegardé : `{out_path.name}`")
         st.audio(str(out_path), format="audio/wav")
         st.session_state["last_audio"] = str(out_path)
+
 
 # 3️⃣ Feedback & enregistrement
 if "last_audio" in st.session_state:
